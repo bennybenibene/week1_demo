@@ -5,9 +5,9 @@ def modify(x):
 
     for i,j in enumerate(x):
         if i < len(x) -1:
-            modified_x += j + "****"
-        else:
             modified_x += j + "----"
+        else:
+            modified_x += j 
     
     return modified_x
 
